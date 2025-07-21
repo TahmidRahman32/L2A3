@@ -14,7 +14,5 @@ const bookSchema = new Schema<IBook>(
    { timestamps: true, versionKey: false }
 );
 
-
-
 const Book = model<IBook>("Book", bookSchema);
 export default Book;

@@ -5,6 +5,6 @@ import bookBorrowRoute from "../modules/BookBorrow/bookBorrow.route";
 const routers = Router();
 
 
-routers.use("/books", bookroute);
-routers.use("/borrow",bookBorrowRoute );
+routers.use("/api/books", bookroute);
+routers.use("/api/borrow",bookBorrowRoute );
 export default routers;
